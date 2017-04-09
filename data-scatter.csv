@@ -1,41 +1,66 @@
-Youth Civilian Labor Force,Youth Unemployment Rate,Region
-1288437,0.16,New York State
-84811,0.13,Capital Region
-64026,0.17,Central New York Region
-98464,0.15,Finger Lakes Region
-160016,0.18,Hudson Valley Region
-182194,0.13,Long Island Region
-37296,0.17,Mohawk Valley Region
-471854,0.20,New York City Region
-29958,0.15,North Country Region
-52088,0.14,Southern Tier Region
-107730,0.12,Western New York Region
-1297510,0.18,New York State
-85594,0.15,Capital Region
-64459,0.16,Central New York Region
-100121,0.17,Finger Lakes Region
-160894,0.19,Hudson Valley Region
-184344,0.16,Long Island Region
-38094,0.13,Mohawk Valley Region
-475742,0.23,New York City Region
-28805,0.15,North Country Region
-50970,0.13,Southern Tier Region
-108487,0.14,Western New York Region
-1297071,0.20,New York State
-83960,0.18,Capital Region
-60139,0.17,Central New York Region
-100493,0.16,Finger Lakes Region
-150925,0.21,Hudson Valley Region
-173454,0.15,Long Island Region
-35977,0.20,Mohawk Valley Region
-495712,0.24,New York City Region
-31154,0.21,North Country Region
-51300,0.16,Southern Tier Region
-113957,0.15,Western New York Region
-88438,1.7,Andover
-115571,2.6,Avon
-73104,-0.5,Bloomfield
-205688,2.6,Darien
-29430,-1.7,Hartford
-160106,2.6,Westport
-79528,0.1,Windsor
+Hispanic - Averaged Freshman Graduation Rate ,Asian/Pacific Islander - Averaged Freshman Graduation Rate ,State Name
+66.5,91.7,ALABAMA
+85.8,71.9,ALASKA
+–,–,AMERICAN SAMOA
+70.6,95.8,ARIZONA
+77,85.7,ARKANSAS
+–,–,BUREAU OF INDIAN AFFAIRS
+71.7,90.1,CALIFORNIA
+65.9,97.4,COLORADO
+55.5,88.5,CONNECTICUT
+67.3,100,DELAWARE
+–,–,DEPARTMENT OF DEFENSE
+58.5,79.3,DISTRICT OF COLUMBIA
+71.1,92.5,FLORIDA
+66.3,92.3,GEORGIA
+–,–,GUAM
+72.4,77,HAWAII
+80.4,97.5,IDAHO
+76,97.1,ILLINOIS
+71.8,95.2,INDIANA
+86.3,87.3,IOWA
+78.8,88.6,KANSAS
+81.1,100,KENTUCKY
+78.3,100,LOUISIANA
+96.1,96.9,MAINE
+77.4,100,MARYLAND
+65,93.7,MASSACHUSETTS
+62.9,92.6,MICHIGAN
+66.7,90,MINNESOTA
+61.8,86.7,MISSISSIPPI
+81.2,100,MISSOURI
+74.9,90.5,MONTANA
+71.3,94.9,NEBRASKA
+47.2,80.6,NEVADA
+89.9,96.9,NEW HAMPSHIRE
+77.1,93.9,NEW JERSEY
+65.3,94.8,NEW MEXICO
+60.7,92.1,NEW YORK
+67.4,93.1,NORTH CAROLINA
+66.7,100,NORTH DAKOTA
+–,–,NORTHERN MARIANAS
+67.7,97.7,OHIO
+70.7,100,OKLAHOMA
+75.6,83.6,OREGON
+70.4,100,PENNSYLVANIA
+60.1,†,PUERTO RICO
+69.1,82,RHODE ISLAND
+65.7,97.1,SOUTH CAROLINA
+73.4,96.8,SOUTH DAKOTA
+78.1,99.1,TENNESSEE
+77.4,95.9,TEXAS
+60.6,85.5,UTAH
+100,100,VERMONT
+56.5,66.7,VIRGIN ISLANDS
+75.9,100,VIRGINIA
+64.1,86.8,WASHINGTON
+74.9,100,WEST VIRGINIA
+78.2,94.9,WISCONSIN
+74.3,69,WYOMING
+n/a,n/a,Totals:
+,,
+,,"Data Source: U.S. Department of Education, National Center for Education Statistics, Common Core of Data (CCD), ""State Dropout and Completion Data File"", 2009-10 v.1a."
+,,
+,,† indicates that the data are not applicable.
+,,– indicates that the data are missing.
+,,‡ indicates that the data do not meet NCES data quality standards.
