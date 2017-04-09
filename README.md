@@ -12,8 +12,10 @@ http://www.highcharts.com is free for personal websites, school sites, or non-pr
 - Thanks @andrewbtran at http://TrendCT.org for function to display financial data (with $ and commas)
 
 ## data
-- from TrendCT, NY Times, Stanford Education Data Archive, and American Community Survey 2009-13
-- see data details at https://github.com/jackdougherty/otl-scatter-districts-income-grades
+- from U.S Department of Education, National Center for Education Statistics
+- Dataset: State Averaged Freshmen Graduation Rate by Race/Ethnicity 2009-10
+- http://nces.ed.gov/ccd/elsi/
+- see data details at https://yuccafrita.github.io/highcharts-scatter-csv/
 
 ## learn more at DataVizForAll.org book
 - Tutorial: Modify and Host a Highcharts Scatter Chart Template on GitHub, https://www.datavizforall.org/github/fork-highcharts
