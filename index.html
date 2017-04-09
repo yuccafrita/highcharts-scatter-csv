@@ -27,11 +27,11 @@
         },
 
         title: {
-          text: 'Highcharts scatter chart from CSV'  // EDIT to insert your chart title
+          text: 'Contact Rates for Baseball Hitters'  // EDIT to insert your chart title
         },
 
         subtitle: {
-          text: 'View <a href="data-scatter.csv"> source data</a>', // EDIT link and text
+          text: 'View <a href="data-scatter.csv"> source data from FanGraphs Leaderboard, 2015</a>', // EDIT link and text
           useHTML: true
         },
 
@@ -52,13 +52,13 @@
 
         xAxis: {
           title: {
-            text: 'Insert x-axis label'  // EDIT to insert horizontal x-axis label
+            text: 'Medium%'  // EDIT to insert horizontal x-axis label
           }
         },
 
         yAxis: {
           title: {
-            text: 'Insert y-axis label'   // EDIT to insert vertical y-axis label
+            text: 'Hard%'   // EDIT to insert vertical y-axis label
           }
         },
 
@@ -82,9 +82,9 @@
               point = this.point;
               // EDIT tooltip text labels below to match your data
               html = '<table>';
-              html += '<tr><th colspan="2"><h3>District: ' + point.name + '</h3></th></tr>';
-              html += '<tr><th>Median household income:</th><td>$' + comma(point.x) + '</td></tr>';
-              html += '<tr><th>Grades above/below average:</th><td>' + point.y + '</td></tr>';
+              html += '<tr><th colspan="2"><h3>Name: ' + point.name + '</h3></th></tr>';
+              html += '<tr><th>Medium%:</th><td>' + point.x + '</td></tr>';
+              html += '<tr><th>Hard%:</th><td>' + point.y + '</td></tr>';
               html += '</table>';
 
               return html;
