@@ -105,26 +105,26 @@
 
   // Split data based on 'category' property; needed for correct legend display
 
-  //function categoriesIntoSeries(data) {
-    //rows = data.series[0].data;
-    //data.series = [];
+  function categoriesIntoSeries(data) {
+    rows = data.series[0].data;
+    data.series = [];
 
-    //for (i = 0; i < rows.length; i++) {
-      //cat = rows[i].category;
-      //catExists = false;
-      //for (j = 0; j < data.series.length; j++) {
-        //if (data.series[j].name == cat) {
-          // Add a data point to existing series
-          //data.series[j].data.push(rows[i]);
-          //catExists = true;
-       // }
-     // }
-      //if (!catExists) {
-        // When category is encountered for the first time, create a series
-       // data.series.push({name: cat, data: [rows[i]]})
-     // }
-   // }
- // }
+    for (i = 0; i < rows.length; i++) {
+      cat = rows[i].category;
+      catExists = false;
+      for (j = 0; j < data.series.length; j++) {
+        if (data.series[j].name == cat) {
+           Add a data point to existing series
+          data.series[j].data.push(rows[i]);
+          catExists = true;
+        }
+      }
+      if (!catExists) {
+         When category is encountered for the first time, create a series
+        data.series.push({name: cat, data: [rows[i]]})
+      }
+    }
+  }
 
 
   // Customize colors of series
@@ -157,11 +157,11 @@
   // Returns a string that contains digits of val split by comma evey 3 positions
   // Example: 12345678 -> "12,345,678"
 
-  function comma(val) {
-      while (/(\d+)(\d{3})/.test(val.toString())) {
-          val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
-      }
-      return val;
+  //function comma(val) {
+    //  while (/(\d+)(\d{3})/.test(val.toString())) {
+      //    val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
+     // }
+     // return val;
   }
 
   </script>
