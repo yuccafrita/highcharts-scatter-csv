@@ -82,9 +82,9 @@
               point = this.point;
               // EDIT tooltip text labels below to match your data
               html = '<table>';
-              html += '<tr><th colspan="2"><h3>Name: ' + point.name + '</h3></th></tr>';
-              html += '<tr><th>Medium%:</th><td>' + point.x + '</td></tr>';
-              html += '<tr><th>Hard%:</th><td>' + point.y + '</td></tr>';
+              html += '<tr><th colspan="2"><h3>Name: ' + point.percentage.name + '</h3></th></tr>';
+              html += '<tr><th>Medium%:</th><td>' + point.percentage.x + '</td></tr>';
+              html += '<tr><th>Hard%:</th><td>' + point.percentage.y + '</td></tr>';
               html += '</table>';
 
               return html;
