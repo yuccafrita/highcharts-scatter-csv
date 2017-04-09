@@ -114,13 +114,13 @@
       catExists = false;
       for (j = 0; j < data.series.length; j++) {
         if (data.series[j].name == cat) {
-           Add a data point to existing series
+           //Add a data point to existing series
           data.series[j].data.push(rows[i]);
           catExists = true;
         }
       }
       if (!catExists) {
-         When category is encountered for the first time, create a series
+         //When category is encountered for the first time, create a series
         data.series.push({name: cat, data: [rows[i]]})
       }
     }
