@@ -31,7 +31,7 @@
         },
 
         subtitle: {
-          text: 'View <a href="data-scatter.csv"> source data</a> from National Center for Education Statistics', // EDIT link and text
+          text: 'View <a href="data-scatter.csv"> source data</a> from U.S. Dept of Education, National Center for Education Statistics', // EDIT link and text
           useHTML: true
         },
 
@@ -52,13 +52,13 @@
 
         xAxis: {
           title: {
-            text: 'Medium%'  // EDIT to insert horizontal x-axis label
+            text: 'Hispanic - Averaged Freshman Graduation Rate'  // EDIT to insert horizontal x-axis label
           }
         },
 
         yAxis: {
           title: {
-            text: 'Hard%'   // EDIT to insert vertical y-axis label
+            text: 'Asian/Pacific Islander - Averaged Freshman Graduation Rate'   // EDIT to insert vertical y-axis label
           }
         },
 
@@ -82,9 +82,9 @@
               point = this.point;
               // EDIT tooltip text labels below to match your data
               html = '<table>';
-              html += '<tr><th colspan="2"><h3>Name: ' + point.name + '</h3></th></tr>';
-              html += '<tr><th>Medium%:</th><td>' + point.x + '</td></tr>';
-              html += '<tr><th>Hard%:</th><td>' + point.y + '</td></tr>';
+              html += '<tr><th colspan="2"><h3>State: ' + point.name + '</h3></th></tr>';
+              html += '<tr><th>Hispanic - Averaged Freshman Graduation Rate :</th><td>' + point.x + '</td></tr>';
+              html += '<tr><th>Asian/Pacific Islander - Averaged Freshman Graduation Rate:</th><td>' + point.y + '</td></tr>';
               html += '</table>';
 
               return html;
@@ -105,26 +105,26 @@
 
   // Split data based on 'category' property; needed for correct legend display
 
-  function categoriesIntoSeries(data) {
-    rows = data.series[0].data;
-    data.series = [];
+  //function categoriesIntoSeries(data) {
+    //rows = data.series[0].data;
+    //data.series = [];
 
-    for (i = 0; i < rows.length; i++) {
-      cat = rows[i].category;
-      catExists = false;
-      for (j = 0; j < data.series.length; j++) {
-        if (data.series[j].name == cat) {
+    //for (i = 0; i < rows.length; i++) {
+      //cat = rows[i].category;
+      //catExists = false;
+      //for (j = 0; j < data.series.length; j++) {
+        //if (data.series[j].name == cat) {
           // Add a data point to existing series
-          data.series[j].data.push(rows[i]);
-          catExists = true;
-        }
-      }
-      if (!catExists) {
+          //data.series[j].data.push(rows[i]);
+          //catExists = true;
+       // }
+     // }
+      //if (!catExists) {
         // When category is encountered for the first time, create a series
-        data.series.push({name: cat, data: [rows[i]]})
-      }
-    }
-  }
+       // data.series.push({name: cat, data: [rows[i]]})
+     // }
+   // }
+ // }
 
 
   // Customize colors of series
